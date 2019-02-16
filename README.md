@@ -24,16 +24,16 @@ Or [download the binary](https://github.com/sgreben/stdin-spinner/releases/lates
 
 ```bash
 # Linux
-curl -LO https://github.com/sgreben/stdin-spinner/releases/download/1.0.0/stdin-spinner_1.0.0_linux_x86_64.zip
-unzip stdin-spinner_1.0.0_linux_x86_64.zip
+curl -LO https://github.com/sgreben/stdin-spinner/releases/download/1.0.1/stdin-spinner_1.0.1_linux_x86_64.zip
+unzip stdin-spinner_1.0.1_linux_x86_64.zip
 
 # OS X
-curl -LO https://github.com/sgreben/stdin-spinner/releases/download/1.0.0/stdin-spinner_1.0.0_osx_x86_64.zip
-unzip stdin-spinner_1.0.0_osx_x86_64.zip
+curl -LO https://github.com/sgreben/stdin-spinner/releases/download/1.0.1/stdin-spinner_1.0.1_osx_x86_64.zip
+unzip stdin-spinner_1.0.1_osx_x86_64.zip
 
 # Windows
-curl -LO https://github.com/sgreben/stdin-spinner/releases/download/1.0.0/stdin-spinner_1.0.0_windows_x86_64.zip
-unzip stdin-spinner_1.0.0_windows_x86_64.zip
+curl -LO https://github.com/sgreben/stdin-spinner/releases/download/1.0.1/stdin-spinner_1.0.1_windows_x86_64.zip
+unzip stdin-spinner_1.0.1_windows_x86_64.zip
 ```
 
 ## Usage
