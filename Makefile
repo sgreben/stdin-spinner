@@ -1,4 +1,4 @@
-VERSION = 1.0.3
+VERSION = 1.0.4
 
 APP      := stdin-spinner
 PACKAGES := $(shell go list -f {{.Dir}} ./...)
@@ -16,7 +16,7 @@ release: README.md zip
 	git add Makefile
 	git commit -am "Release $(VERSION)" || true
 	git push
-	hub release create $(VERSION) -m "$(VERSION)" -a release/$(APP)_$(VERSION)_osx_x86_64.zip -a release/$(APP)_$(VERSION)_windows_x86_64.zip -a release/$(APP)_$(VERSION)_linux_x86_64.zip -a release/$(APP)_$(VERSION)_osx_x86_32.zip -a release/$(APP)_$(VERSION)_windows_x86_32.zip -a release/$(APP)_$(VERSION)_linux_x86_32.zip -a release/$(APP)_$(VERSION)_linux_arm64.zip
+	hub release create $(VERSION) -m "$(VERSION)" -a release/$(APP)_$(VERSION)_osx_x86_64.tar.gz -a release/$(APP)_$(VERSION)_windows_x86_64.zip -a release/$(APP)_$(VERSION)_linux_x86_64.tar.gz -a release/$(APP)_$(VERSION)_osx_x86_32.tar.gz -a release/$(APP)_$(VERSION)_windows_x86_32.zip -a release/$(APP)_$(VERSION)_linux_x86_32.tar.gz -a release/$(APP)_$(VERSION)_linux_arm64.tar.gz
 
 README.md:
 	<README.template.md subst VERSION="$(VERSION)" APP="$(APP)" USAGE="$$(go get github.com/sgreben/$(APP); $(APP) -h 2>&1)" > README.md
