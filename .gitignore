@@ -1,0 +1,5 @@
+binaries/
+release/
+*.yml
+*.txt
+*.big.gif
