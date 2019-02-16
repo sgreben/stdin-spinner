@@ -6,6 +6,9 @@ For when you need to show the user that something is happening, but don't want t
 
 ![no-spin](doc/nospin.gif) ![spin](doc/spin.gif)
 
+## Contents
+
+- [Contents](#contents)
 - [Get it](#get-it)
 - [Usage](#usage)
 
