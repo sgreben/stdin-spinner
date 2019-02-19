@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"io"
 	"log"
-	"net/http"
 	"os"
 	"strings"
 	"sync"
@@ -13,8 +12,6 @@ import (
 )
 
 const appName = "stdin-spinner"
-
-var httpClient = http.DefaultClient
 
 var config struct {
 	Append       bool

@@ -1,4 +1,4 @@
-VERSION = 1.0.4
+VERSION = 1.0.5
 
 APP      := stdin-spinner
 PACKAGES := $(shell go list -f {{.Dir}} ./...)
